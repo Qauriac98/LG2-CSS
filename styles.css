@@ -86,7 +86,7 @@ table.reportTable td {
 /* For the latter case, the selector would be: .reportTable .headerCell.measure */
 /* Given the user phrasing, I'll assume the classes can be on the same element or parent-child. */
 /* The most specific and likely interpretation is that the TH has .headerCell and .measure, and is inside .reportTable */
-.reportTable .headerCell.measure {
+.headerCell.measure {
   display: none !important; /* Hide the measure header cells */
 }
 
