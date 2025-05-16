@@ -87,8 +87,7 @@ table.reportTable td {
 /* Given the user phrasing, I'll assume the classes can be on the same element or parent-child. */
 /* The most specific and likely interpretation is that the TH has .headerCell and .measure, and is inside .reportTable */
 .headerCell.measure {
-  background-color: #e4d0bd;
-  border-left: 1px solid #BDC3C7; 
+  display: none !important;
 }
 
 
