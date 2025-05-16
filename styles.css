@@ -72,8 +72,10 @@ table.reportTable td {
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
+  background-color: #0a0a0a;
+  color: #FFF;
   padding: 5px;
-  width: 150px; /* MODIFIED: Set a specific width for header cells. Adjust as needed. */
+  width: 200px; /* MODIFIED: Set a specific width for header cells. Adjust as needed. */
   /* You could also use min-width or max-width if that suits your needs better. */
   /* e.g., min-width: 120px; */
   /* e.g., max-width: 200px; */
@@ -87,6 +89,10 @@ table.reportTable td {
 /* Given the user phrasing, I'll assume the classes can be on the same element or parent-child. */
 /* The most specific and likely interpretation is that the TH has .headerCell and .measure, and is inside .reportTable */
 .headerCell.measure {
+  display: none !important;
+}
+
+.headerCell.dimension {
   display: none !important;
 }
 
@@ -127,7 +133,8 @@ table.reportTable td {
 .subtotal {
   font-style: italic;
   font-weight: bold;
-  background: #D3D3D3;
+  background: #ececec;
+  color: #FFF;
 }
 
 .total {
