@@ -75,9 +75,10 @@ table.reportTable td {
   background-color: #0a0a0a;
   color: #FFF;
   padding: 5px;
-  width: 200px; /* MODIFIED: Set a specific width for header cells. Adjust as needed. */
+  max-width: 400px;
+  min-width: 75px;/* MODIFIED: Set a specific width for header cells. Adjust as needed. */
   /* You could also use min-width or max-width if that suits your needs better. */
-  /* e.g., min-width: 120px; */
+  /* e.g.,  */
   /* e.g., max-width: 200px; */
   text-align: center !important; /* Explicitly set text alignment if needed, th defaults to center */
 }
