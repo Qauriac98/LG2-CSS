@@ -82,6 +82,10 @@ table.reportTable td {
   text-align: center; /* Explicitly set text alignment if needed, th defaults to center */
 }
 
+headerCell.element{
+    text-align: center;
+}
+
 /* NEW RULE: Hide header cells that are also marked as 'measure' within a reportTable context */
 /* This assumes the HTML element has all three classes: <th class="reportTable headerCell measure">...</th> */
 /* Or, if reportTable is on the table: <table class="reportTable"> ... <th class="headerCell measure">...</th> */
