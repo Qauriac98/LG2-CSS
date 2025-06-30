@@ -62,7 +62,7 @@ table.reportTable th {
   /* width: 150px; */ /* Example: Default width for all th elements */
 }
 
-.vw_md_finance_accounts.ds_level_4.pivot0 {
+#vw_md_finance_accounts.ds_level_4.pivot0 {
   background-color: lightblue;
   font-weight: bold;
 }
