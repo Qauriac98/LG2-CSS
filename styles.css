@@ -164,7 +164,7 @@ headerCell.element{
   margin: 4px;
 }
 
-#vw_md_finance_accounts.ds_level_4.pivot0 {
-  min-width: 400px;
-  width: 400px;
+th#vw_md_finance_accounts.ds_level_4.pivot0 {
+  background-color: lightblue;
+  font-weight: bold;
 }
