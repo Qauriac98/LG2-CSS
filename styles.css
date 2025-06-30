@@ -84,7 +84,8 @@ table.reportTable td {
 }
 
 .pivot{
-  min-width:200px;
+  min-width:50px;
+  width:50px
 }  
 
 headerCell.element{
