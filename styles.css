@@ -62,6 +62,11 @@ table.reportTable th {
   /* width: 150px; */ /* Example: Default width for all th elements */
 }
 
+.vw_md_finance_accounts.ds_level_4.pivot0 {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
 table.reportTable td {
   vertical-align: super;
   padding: 5px;
@@ -162,9 +167,4 @@ headerCell.element{
 .rectElem.animated {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin: 4px;
-}
-
-th.vw_md_finance_accounts.ds_level_4.pivot0 {
-  background-color: lightblue;
-  font-weight: bold;
 }
