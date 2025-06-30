@@ -76,14 +76,14 @@ table.reportTable td {
   color: #FFF;
   padding: 5px;
   max-width: 400px;
-  min-width: 100px;/* MODIFIED: Set a specific width for header cells. Adjust as needed. */
+  min-width: 75px;/* MODIFIED: Set a specific width for header cells. Adjust as needed. */
   /* You could also use min-width or max-width if that suits your needs better. */
   /* e.g.,  */
   /* e.g., max-width: 200px; */
   text-align: center !important; /* Explicitly set text alignment if needed, th defaults to center */
 }
 
-.headerCell pivot{
+.pivot{
   min-width:200px;
 }  
 
