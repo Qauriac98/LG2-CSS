@@ -63,8 +63,8 @@ table.reportTable th {
 }
 
 #vw_md_finance_accounts\.ds_level_4\.pivot0 {
-  background-color: lightblue;
-  font-weight: bold;
+  min-width:175px;
+  width:175px
 }
 
 table.reportTable td {
@@ -89,8 +89,8 @@ table.reportTable td {
 }
 
 .pivot{
-  min-width:150px;
-  width:150px
+  min-width:100px;
+  width:100px
 }  
 
 headerCell.element{
