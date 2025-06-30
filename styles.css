@@ -83,6 +83,10 @@ table.reportTable td {
   text-align: center !important; /* Explicitly set text alignment if needed, th defaults to center */
 }
 
+.headerCell pivot{
+  min-width:200px;
+}  
+
 headerCell.element{
     text-align: center;
 }
