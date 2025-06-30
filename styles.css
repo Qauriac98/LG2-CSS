@@ -159,6 +159,6 @@ headerCell.element{
   margin: 4px;
 }
 
-.th#vw_md_finance_accounts\.ds_level_4\.pivot0 {
+#vw_md_finance_accounts\.ds_level_4\.pivot0 .th {
   min-width: 200px;
 }
